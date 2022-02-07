@@ -5,23 +5,43 @@
 #clock {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 30%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 57px;
+    color: skyblue;
+    font-size: 80px;
 }
 #login-input{
     position: absolute;
+    width: 500px;
+    height: 32px;
+    font-size: 15px;
+    border: 5px solid skyblue;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgba(233, 233, 233,0);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 10px 10px;
+    color: skyblue;
+}
+#login-input::-webkit-input-placeholder{
+    color: skyblue;
 }
 
 #login-btn{
     position: absolute;
-    left: 65%;
-    top: 50%;
+    width: 100px;
+    height: 40px;
+    left: 50%;
+    top: 60%;
     transform: translate(-50%, -50%);
+    border: 5px solid skyblue;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    color: skyblue;
+    padding: 5px;
 }
 
 #greeting {
@@ -29,7 +49,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: aliceblue;
+    color: skyblue; 
 }
 
 #quote {
@@ -37,18 +57,64 @@
     left: 50%;
     top: 95%;
     transform: translate(-50%, -50%);
+    color: antiquewhite;
 }
 
-#todo-form {
+#todo-form input {
     position: absolute;
+    width: 500px;
     left: 50%;
     top: 65%;
     transform: translate(-50%, -50%);
+    font-size: 15px;
+    border: 5px solid skyblue;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgba(233, 233, 233,0);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 10px 10px;
+    color: skyblue;
+}
+#todo-form input::-webkit-input-placeholder{
+    color: skyblue;
+    padding-left: 10px;
 }
 
+#weather{
+    color: white;
+    
+}
 
+ul{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;    
+}
+ul li{
+    transform: translate(-50%, -50%);
+    float: left;
+    color: skyblue;
+    font-size: 20px;
+    margin: 5px;
+}
 
-/* 배경 이미지 */
+ul button{
+    transform: translate(0%, -10%);
+    width: 30px;
+    border: 2px solid skyblue;
+    background-color: rgba(0,0,0,0);
+    color: skyblue;
+    padding: 5px;
+    
+}
+ul button:hover{
+    background:#fff;
+    color:#1AAB8A;
+}
+
 img {
     position: absolute;
     width: 100%;
